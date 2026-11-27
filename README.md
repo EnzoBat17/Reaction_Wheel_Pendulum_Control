@@ -1,5 +1,11 @@
 # Reaction Wheel Inverted Pendulum Control
 
+## Contributors
+
+- Enzo Oliveira Batista (https://github.com/EnzoBat17)
+- João Vitor Faria (https://github.com/jvfaria-dev)
+- Vitor Oliveira Batista (https://github.com/Vitor-Oliveira17)
+
 Repository dedicated to the dynamic modeling, digital simulation (**MATLAB/Simulink**), and real-time embedded implementation (**ESP32 / ESP-IDF**) of three discrete-time control strategies applied to a **Reaction Wheel Inverted Pendulum**.
 
 Project developed at the **Faculty of Electrical Engineering (FEELT)**, **Federal University of Uberlândia (UFU)**.
