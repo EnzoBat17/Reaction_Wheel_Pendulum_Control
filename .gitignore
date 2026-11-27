@@ -1,0 +1,67 @@
+# ==============================================================================
+# ESP-IDF / CMake / Compilacao C/C++
+# ==============================================================================
+build/
+**/build/
+sdkconfig.old
+sdkconfig.ci
+dependencies.lock
+managed_components/
+**/managed_components/
+*.o
+*.d
+*.a
+*.elf
+*.bin
+*.map
+*.uf2
+
+# ==============================================================================
+# MATLAB & Simulink
+# ==============================================================================
+*.asv
+*.autosave
+*.slxc
+*.mex*
+*.mat~
+slprj/
+**/slprj/
+*_ert_rtw/
+*_grt_rtw/
+codegen/
+**/codegen/
+
+# ==============================================================================
+# IDEs e Editores (VS Code, CLion, etc.)
+# ==============================================================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================================================================
+# LaTeX (caso o relatorio/artigo esteja no repositorio)
+# ==============================================================================
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# ==============================================================================
+# Sistema Operacional (Windows / macOS / Linux)
+# ==============================================================================
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
