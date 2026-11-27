@@ -1,0 +1,4 @@
+CONFIG_IDF_TARGET="esp32"
+
+# Control loop model and FreeRTOS scheduling run at 1 kHz (Ts = 1 ms).
+CONFIG_FREERTOS_HZ=1000
